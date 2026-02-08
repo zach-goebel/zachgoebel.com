@@ -4,8 +4,8 @@ description: >
   Operator. Builder. Writer. Musician.
   A public notebook of projects, experiments, and ideas.
 
-baseurl: ""
-url: "https://zachgoebel.com"
+baseurl: "/zachgoebel.com"
+url: "https://zach-goebel.github.io"
 
 markdown: kramdown
 permalink: /writing/:title/
