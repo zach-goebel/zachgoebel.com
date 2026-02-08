@@ -1,0 +1,22 @@
+title: Zach Goebel
+email: hello@zachgoebel.com
+description: >
+  Operator. Builder. Writer. Musician.
+  A public notebook of projects, experiments, and ideas.
+
+baseurl: ""
+url: "https://zachgoebel.com"
+
+markdown: kramdown
+permalink: /writing/:title/
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
